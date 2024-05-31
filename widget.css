@@ -1,0 +1,172 @@
+body{
+    font-family: "Lato", sans-serif;
+    background-color: #f3f4f6;
+}
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: screen;
+}
+h1{
+    margin: 0px;
+}
+.heading{
+    color: white;
+    width: 95%;
+    font-weight: 400;
+    background-color: white;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+}
+label{
+    font-size: 1.5rem;
+    /* font-weight: 700; */
+}
+input{
+    height: 30px;
+    font-size: 1rem;
+    border: none;
+    border-bottom: 1px solid grey;
+    margin-left: 10px;
+}
+select{
+    height: 30px;
+    background-color: white;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid grey;
+    margin-left: 10px;
+}
+option[disabled] {
+    color: grey;
+}
+
+.mainContent_wrapper{
+    width: 97.2%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+.content_wrapper{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 30%;
+    margin: 16px 0px;
+    /* border: 1px solid rgb(165, 165, 165); */
+    border-radius: 6px;
+    /* box-shadow: 0px 2px rgb(168, 168, 168); */
+}
+
+.moderation_head{
+    font-size: 16px;
+    color: #333333;
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+}
+.moderation{
+    font-size: 36px;
+    font-weight: 600;
+    width: fit-content;
+    text-align: left;
+    color: #CF6400;
+}
+
+.SME_head{
+    font-size: 16px;
+    color: #333333;
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+}
+.SME{
+    font-size: 36px;
+    font-weight: 600;
+    width: fit-content;
+    text-align: left;
+    color: #CF6400;
+}
+
+.Advocacy_Head{
+    font-size: 16px;
+    color: #333333;
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+}
+.Advocacy{
+    font-size: 36px;
+    font-weight: 600;
+    width: fit-content;
+    text-align: left;
+    color: #CF6400;
+}
+
+
+
+.radio_Section{
+    /* margin-top: 1rem; */
+    border-radius: 6px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    background-color: white;
+    margin: 0px;
+}
+.radio_selection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inp_rd{
+    margin: 0px 10px;
+}
+.rd_label{
+    margin-right: 1rem;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.another_inp{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    height: 5rem;
+}
+
+.date_range{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    margin: 10px 18px;
+}
+
+button{
+    border: 1px solid rgba(0,0,0,0.1);
+    color: white;
+    background-color: #a85f2a;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px 10px;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
