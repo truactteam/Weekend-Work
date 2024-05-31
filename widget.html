@@ -14,7 +14,6 @@
   <body>
     <div class="mainDiv">
       
-      <h1 class="heading">Average Time Lag</h1>
       <div class="radio_Section" id="radio_Section">
         <form>
           <div class="radio_selection">
@@ -75,6 +74,10 @@
             </div>
             <button id="filterButton" style="display: none;" type="submit" >Submit</button>
           </div>
+          <div style="display: flex; justify-content: space-between; width: 30vw; margin-top: 25px;">
+            <div id="stDT&enDT" style="display: none;">Start Date : <span id="wkStartDate"></span></div>
+            <div id="stDT&enDT2" style="display: none;">End Date : <span id="wkEndDate"></span></div>
+          </div>
 
         </form>
       </div>
@@ -82,18 +85,32 @@
       <div class="mainContent_wrapper">
 
         <div class="content_wrapper">
-          <div class="moderation"><span id="moderation" class="hover-tooltip" title="Time in Hour">--</span></div>
-          <div class="moderation_head">Moderation</div>
+          <button id="Escalation_start" class="moderation txtButton">--</button>
+          <div class="moderation_head">Escalation Start</div>
         </div>
 
         <div class="content_wrapper">
-          <div class="SME"><span id="SME" class="hover-tooltip" title="Time in Hour">--</span></div>
-          <div class="SME_head">SME</div>
+          <button id="Complete" class="SME txtButton">--</button>
+          <div class="SME_head">Complete</div>
         </div>
 
         <div class="content_wrapper">
-          <div class="Advocacy"><span id="Advocacy" class="hover-tooltip" title="Time in Hour">--</span></div>
-          <div class="Advocacy_Head">Advocacy</div>
+          <button id="Task_Allocation_Pending" class="Advocacy txtButton">--</button>
+          <div class="Advocacy_Head">Task Allocation Pending</div>
+        </div>
+
+      </div>
+
+      <div class="mainContent_wrapper">
+
+        <div class="content_wrapper">
+          <button id="SME_Pending" class="SME txtButton">--</button>
+          <div class="SME_head">SME Pending</div>
+        </div>
+
+        <div class="content_wrapper">
+          <button id="Advocacy_Pending" class="Advocacy txtButton">--</button>
+          <div class="Advocacy_Head">Advocacy Pending</div>
         </div>
 
       </div>

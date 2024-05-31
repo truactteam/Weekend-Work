@@ -13,7 +13,7 @@ h1{
     margin: 0px;
 }
 .heading{
-    color: white;
+    color: black;
     width: 95%;
     font-weight: 400;
     background-color: white;
@@ -80,6 +80,9 @@ option[disabled] {
     width: fit-content;
     text-align: left;
     color: #CF6400;
+    cursor: pointer;
+    border: none;
+    background-color: white;
 }
 
 .SME_head{
@@ -95,6 +98,9 @@ option[disabled] {
     width: fit-content;
     text-align: left;
     color: #CF6400;
+    cursor: pointer;
+    border: none;
+    background-color: white;
 }
 
 .Advocacy_Head{
@@ -110,14 +116,21 @@ option[disabled] {
     width: fit-content;
     text-align: left;
     color: #CF6400;
+    cursor: pointer;
+    border: none;
+    background-color: white;
 }
 
-
+.txtButton{
+    margin: 0;
+    padding: 0;
+}
 
 .radio_Section{
     /* margin-top: 1rem; */
     border-radius: 6px;
     padding: 10px;
+    padding-top: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
